@@ -11,6 +11,7 @@ module.exports = {
                 ]
             },
             { text: 'Filter', link: '/filter/' },
+            { text: 'LICENSE', link: '/license/' },
         ]
     }
 }
