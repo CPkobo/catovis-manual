@@ -1,5 +1,6 @@
 module.exports = {
     base: '/catovis-docs/',
+    dest: 'docs',
     themeConfig: {
         sidebar: 'auto',
         nav: [
