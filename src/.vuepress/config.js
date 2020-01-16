@@ -1,6 +1,9 @@
 module.exports = {
     base: '/catovis-docs/',
     dest: 'docs',
+    head: [
+        ['link', { rel: 'icon', type: 'image/png', href: '/catovis.ico' }],
+    ],
     themeConfig: {
         sidebar: 'auto',
         nav: [

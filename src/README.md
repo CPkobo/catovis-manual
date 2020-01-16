@@ -1,11 +1,19 @@
 ﻿---
 HOME: true
-title: CATOVIS TOP
+title: CATOVIS  ~WYSIWYGでクラシックなCATツール~
 sidebar: false
 ---
-## CATOVIS  ~WYSIWYGでクラシックなCATツール~
+
+<div align="center">
+
+![LOGO](/catovis.ico)
+
+</div>
+
+## CATツールをより手軽に
 CATOVIS(キャトビス)は「CATツールをより手軽に」を目指したCATツールです。
 原文ファイルを開いてすぐにスタートできるよう、原文ファイルの読み込み→XLIFF化ステップの省略をはかりました。
+
 これによりWYSIWYGな、今では見ることの少なくなったクラシックなCAT体験を提供します。
 
 ::: tip
@@ -18,6 +26,7 @@ CATOVIS(キャトビス)は「CATツールをより手軽に」を目指したCA
 - 一部だけ翻訳したい
 - 一部だけ重複が多い
 - 一部だけ修正が入った
+
 といったニーズも少なくありません。
 
 CATOVISはWYSIWYGな特徴により、部分翻訳でも存分に翻訳メモリ／用語集を活かすことができます。

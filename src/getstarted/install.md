@@ -8,8 +8,10 @@ sidebar: auto
 
 以下のURLよりzipファイルをダウンロードしてください。
 
-[ダウンロード](https://drive.google.com/open?id=1klu9zn5CSvBDMsZ89MIl-XbPIOH6oZos)
+[ダウンロード](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)
 
+適切なファイルを選んで右クリックし、「名前をつけてリンク先を保存」を選択してください。
+特に理由がなければ、最新版を使用することをお勧めします。
 zipファイルを展開すると、
 
 - catovis Setup x.x.x.exe
