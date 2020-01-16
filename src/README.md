@@ -6,7 +6,7 @@ sidebar: false
 
 <div align="center">
 
-![LOGO](/catovis.ico)
+![logowithname](./logowithname.png)
 
 </div>
 
