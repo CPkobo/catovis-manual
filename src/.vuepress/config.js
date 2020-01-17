@@ -14,7 +14,7 @@ module.exports = {
                 ]
             },
             { text: 'Filter', link: '/filter/' },
-            { text: 'LICENSE', link: '/license/' },
+            { text: 'LICENSE', link: '/LICENSE/' },
         ]
     }
 }
