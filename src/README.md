@@ -1,6 +1,7 @@
 ---
 HOME: true
 title: CATOVIS  ~WYSIWYGでクラシックなCATツール~
+lang: zh-CN
 sidebar: false
 ---
 

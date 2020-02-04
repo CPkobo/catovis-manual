@@ -1,5 +1,6 @@
 ---
 title: プライバシーポリシー
+lang: ja-JP
 sidebar: auto
 prev: false
 next: false

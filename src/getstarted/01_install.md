@@ -1,6 +1,7 @@
 ---
 title: インストール
 sidebar: auto
+lang: ja-JP
 prev: false
 next: ./02_withword
 ---

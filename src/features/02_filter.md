@@ -1,9 +1,11 @@
 ---
-title: 
+title: フィルターを使う
+lang: ja-JP
 sidebar: auto
 prev: ./01_move
 next: ./03_snipets
 ---
+
 # フィルターを使う
 CATOVISには、翻訳メモリ／用語集内の検索をするフィルター機能があります。フィルター機能を使うには、メニューバーの「Page」から「Filter」を選んでください。
 

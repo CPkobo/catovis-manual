@@ -1,5 +1,6 @@
 ---
 title: 翻訳スニペット（Word）
+lang: ja-JP
 sidebar: auto
 prev: ./02_filter
 next: ./04_standalone

@@ -1,5 +1,6 @@
 ---
 title:  基本の使い方 Word編
+lang: ja-JP
 sidebar: auto
 prev: ./01_install
 next: ./03_open_import

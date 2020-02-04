@@ -1,5 +1,6 @@
 ---
 title: スタンドアロンモード
+lang: ja-JP
 sidebar: auto
 prev: ./03_snipets
 next: false

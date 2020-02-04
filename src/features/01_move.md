@@ -1,5 +1,6 @@
 ---
 title: フィルターを使う
+lang: ja-JP
 sidebar: auto
 prev: false
 next: ./02_filter

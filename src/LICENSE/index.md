@@ -1,5 +1,6 @@
 ---
 title: LICENSE
+lang: ja-JP
 ---
 ## ライセンスについて
 CATOVISの開発には以下のオープンソースを使用しています。

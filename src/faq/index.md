@@ -1,5 +1,6 @@
 ---
 title: FAQ
+lang: ja-JP
 sidebar: auto
 prev: false
 next: false
