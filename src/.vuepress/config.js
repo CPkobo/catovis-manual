@@ -22,8 +22,10 @@ module.exports = {
                 ]
             },
 			{ text: '便利な機能', items: [
-				{ text: 'フィルター', link: '/features/01_filter' },
-				{ text: 'スタンドアロン', link: '/features/02_standalone' },
+				{ text: '高度な動かし方', link: '/features/01_move' },
+				{ text: 'フィルター', link: '/features/02_filter' },
+				{ text: '翻訳スニペット', link: '/features/03_snipets' },
+				{ text: 'スタンドアロン', link: '/features/04_standalone' },
 				]
 			},
             { text: 'FAQ', link: '/faq/' },
