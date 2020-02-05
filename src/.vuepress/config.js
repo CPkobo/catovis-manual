@@ -31,9 +31,8 @@ module.exports = {
                 description: 'WYSIWYGな軽量翻訳支援ツール',
                 selectText: '言語',
                 label: '日本語',
-                ariaLabel: 'ja',
                 nav: [
-                    { text: 'トップ', link: '/' },
+                    { text: 'トップ', link: '/index' },
                     {
                         text: '始めよう', items: [
                             { text: 'インストール', link: '/getstarted/01_install' },
@@ -63,7 +62,7 @@ module.exports = {
                 selectText: '语言',
                 label: '简体中文',
                 nav: [
-                    { text: '首页', link: '/zh/' },
+                    { text: '首页', link: '/zh/index' },
                     {
                         text: '现在开始', items: [
                             { text: '安装', link: '/zh/getstarted/01_install' },
