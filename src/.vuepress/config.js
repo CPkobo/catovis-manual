@@ -9,6 +9,10 @@ module.exports = {
 			'@vuepress/google-analytics',
     	  	{ 'ga': 'UA-155988647-2' }
     	],
+    	[
+    		'sitemap',
+    		{ 'hostname': 'https://quankaoyang.github.io/catovis-docs/'}
+    	],
     ],
     locales: {
         '/': {

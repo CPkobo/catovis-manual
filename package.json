@@ -1,5 +1,7 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
   "name": "CATOVIS-Manual",
   "version": "0.4.2",
   "description": "Documentation for CATOVIS",
