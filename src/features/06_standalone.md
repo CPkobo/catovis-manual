@@ -2,8 +2,8 @@
 title: スタンドアロンモード
 lang: ja-JP
 sidebar: auto
-prev: ./03_snipets
-next: false
+prev: ./05_snipets
+next: ./99_reference
 ---
 
 # スタンドアロンモード

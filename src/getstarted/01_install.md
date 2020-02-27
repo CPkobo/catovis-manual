@@ -12,7 +12,7 @@ next: ./02_withword
 
 [ダウンロード](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)
 
-適切なファイルを選んでクリックします。特に理由がなければ、最新版を使用することをお勧めします。
+適切なバージョンを選んでクリックします。特に理由がなければ、最新版を使用することをお勧めします。
 
 <img src="./pict/github1.png" alt="img" style="zoom:67%;" />
 
@@ -23,7 +23,7 @@ next: ./02_withword
 ダウンロードしたzipファイルを展開すると、
 
 - catovis Setup x.x.x.exe
-- CATOVIS_VBA_Core.dotm
+- CATOVIS_WordCore.dotm
 - TemplateSet.ps1
 - UpdataLog.txt
 
@@ -46,7 +46,7 @@ Ver 0.4.6未満では、**CATOVIS_VBA_Core.dotm** の代わりに **SelectAndReq
 
 PowerShellが起動し、上図の画面が表示されます。キーボードで「1」を押し、インストールを実行してください。
 
-同じフォルダにある「CATOVIS_VBA_Core.dotm」が所定の位置にコピーされ、Wordとの連携ができるようになります。
+同じフォルダにある「CATOVIS_WordCore.dotm」が所定の位置にコピーされ、Wordとの連携ができるようになります。
 
 ### Wordマクロのインストール　確認
 Wordを起動して、「ファイル」>「オプション」>「アドイン」の順に進んでください。

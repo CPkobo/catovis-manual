@@ -49,9 +49,12 @@ module.exports = {
                     {
                         text: '便利な機能', items: [
                             { text: '高度な動かし方', link: '/features/01_move' },
-                            { text: 'フィルター', link: '/features/02_filter' },
-                            { text: '翻訳スニペット', link: '/features/03_snipets' },
-                            { text: 'スタンドアロン', link: '/features/04_standalone' },
+                            { text: '見た目の変更', link: '/features/02_viewmode' },
+                            { text: '様々な補助機能', link: '/features/03_assistance' },
+                            { text: 'フィルター', link: '/features/04_filter' },
+                            { text: '翻訳スニペット', link: '/features/05_snipets' },
+                            { text: 'スタンドアロン', link: '/features/06_standalone' },
+                            { text: 'リファレンス', link: '/features/99_reference' },
                         ]
                     },
                     { text: 'FAQ', link: '/faq/' },
@@ -80,9 +83,12 @@ module.exports = {
                     {
                         text: '便利功能', items: [
                             { text: '进一步高级的运作', link: '/zh/features/01_move' },
-                            { text: '过滤器', link: '/zh/features/02_filter' },
-                            { text: '翻译片段', link: '/zh/features/03_snipets' },
-                            { text: '独立模式', link: '/zh/features/04_standalone' },
+                            { text: '更换外观', link: '/zh/features/02_viewmode' },
+                            { text: '各种辅助功能', link: '/zh/features/03_assistance' },
+                            { text: '过滤器', link: '/zh/features/04_filter' },
+                            { text: '翻译片段', link: '/zh/features/05_snipets' },
+                            { text: '独立模式', link: '/zh/features/06_standalone' },
+                            { text: '参照文件', link: '/zh/features/99_reference' },
                         ]
                     },
                     { text: '常见问题', link: '/zh/faq/' },

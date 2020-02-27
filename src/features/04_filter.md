@@ -2,8 +2,8 @@
 title: フィルターを使う
 lang: ja-JP
 sidebar: auto
-prev: ./01_move
-next: ./03_snipets
+prev: ./03_assistance
+next: ./05_snipets
 ---
 
 # フィルターを使う
