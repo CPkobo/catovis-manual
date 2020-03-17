@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src && cp ./googlee55eb9eb577e14d1.html ./docs"
+    "build": "vuepress build src"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.2.0",
