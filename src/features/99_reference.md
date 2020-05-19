@@ -2,7 +2,7 @@
 title: CATOVIS リファレンス
 lang: ja-JP
 sidebar: auto
-prev: ./06_standalone
+prev: ./07_machine
 next: false
 ---
 
@@ -22,23 +22,42 @@ CATOVISのショートカットとAPIエンドポイントを照会します。
 |Ctrl + Alt + ↑ | 現在選択している部分を修正の必要な訳文として照会|
 |Alt + ↓ | CATOVISに表示されている翻訳メモリの結果のうち、一致率の高いものから貼り付け。押すたびに順じ繰り下がる|
 |Ctrl + Alt + ↓ | ファイル内にある、照会していた原文と同じ文を、登録した訳文で置換|
-|Alt + S | 現在のカーソル位置から、選択範囲を前後に拡張して一文を選択|
-|Alt + Q | 選択中のテキストを使ってクイックフィルターを適用|
-|Alt + [ | 選択中のテキストを原文用語として準備（フロートボックスでは [ のみ）|
-|Alt + ] | 選択中のテキストを訳文用語として準備（フロートボックスでは ] のみ）|
-|Alt + S | 準備された原文／訳文用語を用語集に登録|
-|Ctrl + Alt + S | 準備中の原文／訳文用語をリセット|
+|Alt + s | 現在のカーソル位置から、選択範囲を前後に拡張して一文を選択|
+|Alt + q | 選択中のテキストを使ってクイックフィルターを適用|
+|Alt + t | 選択中のテキストを原文用語・訳文用語として用語登録ダイアログを呼び出す|
 |Alt + , | 翻訳スニペットバーを呼び出す。|
+|（フロートボックス）s|選択中のテキストを原文用語として用語登録ダイアログを呼び出す|
+|（フロートボックス）t|選択中のテキストを訳文用語として用語登録ダイアログを呼び出す|
+|（フロートボックス）q|選択中のテキストをを使ってクイックフィルターを適用|
+|（フロートボックス）ESC|フロートボックスを閉じる|
 |（スニペット）Ctrl + ↓|入力したテキストでスニペット内の検索を開始|
 |（スニペット）Enter|スニペット内の選択したテキストを貼り付け|
 |（スニペット）Ctrl + Enter|スニペット内の選択したテキストを貼り付け、スニペットバーを閉じる|
 |（スニペット）Esc|スニペットバーを閉じる|
+
+## config項目一覧（json）
+|項目|値|説明|
+|:---:|:---:|:---|
+|applyConfig|Boolean|falseにすることで、config.jsonの内容を無視する|
+|MTInfo.srcLang|String|機械翻訳に使用する原文の言語名|
+|MTInfo.tgtLang|String|機械翻訳に使用する訳文の言語名|
+|MTInfo.useGcp|Boolean|trueにすることで機械翻訳としてGoogleを使用する|
+|MTInfo.gcpKey|String|Google翻訳のAPI Keyを入力できる|
+|MTInfo.useDeepL|Boolean|trueにすることで機械翻訳としてDeepLを使用する（未検証）|
+|MTInfo.gcpKey|String|DeepLのAPI Keyを入力できる（未検証）|
+|prefData.upperBound|Int|一致率の計算を行う文字数の差異について、上限の初期値|
+|prefData.lowerBound|Int|一致率の計算を行う文字数の差異について、下限の初期値|
+|prefData.ratioLimit|Int|一致率の計算を行った後、類似文として判定する下限の初期（%）|
+|prefData.realTimeQa|Boolean|falseにすることでリアルタイムQAを行う|
+|locales|String[]|CATOVISに表示するロケールの一覧|
+|port|Int|CATOVISのポート番号|
 
 ## APIエンドポイント一覧
 
 |URL|メソッド|ボディ|戻り値|説明|
 |:---:|:---:|:---|:---|:---|
 |/debugstatus|GET|*なし*|{General: GeneralInfo, Data: DataInfo, tms: TMDoc[], tbs: TBDoc}|ブラウザからアクセスすることで現在の設定やTM、TBを一覧できる|
+|/status|GET|(クエリーストリング)dbType=all|TMs|TBs<br />fid=int|TMDoc 及び/または TBDoc|ブラウザからアクセスすることでTM、TBの中身を見ることができる|
 |/inqure-source|PATCH|原文: string|InfoResponse \| string <sup>*1</sup>|原文の照会をする。hostappを”VBA”とすると特別な文字列を返す|
 |/setnewtrans|PATCH|原文[->]訳文: string|InfoResponse |原文・訳文をTMに登録する|
 |/to-amend|PATCH|訳文: string|null |修正したい訳文をセットする|

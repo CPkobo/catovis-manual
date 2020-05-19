@@ -1,0 +1,19 @@
+{
+  "applyConfig": false,
+  "MTInfo": {
+    "srcLang": "zh",
+    "tgtLang": "ja",
+    "useGcp": false,
+    "gcpKey": "",
+    "useDeepL": false,
+    "deepLKey": ""
+  },
+  "prefData": {
+    "upperBound": 125,
+    "lowerBound": 75,
+    "ratioLimit": 70,
+    "realTimeQa": true
+  },
+  "locales": [ "ja-jp", "zh-cn", "ja-jp-jp", "en",  "zh-tw", "zh-hk"],
+  "port": 8686
+}

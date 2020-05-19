@@ -3,7 +3,7 @@ title: スタンドアロンモード
 lang: ja-JP
 sidebar: auto
 prev: ./05_snipets
-next: ./99_reference
+next: ./07_machine
 ---
 
 # スタンドアロンモード

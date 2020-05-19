@@ -54,6 +54,7 @@ module.exports = {
                             { text: 'フィルター', link: '/features/04_filter' },
                             { text: '翻訳スニペット', link: '/features/05_snipets' },
                             { text: 'スタンドアロン', link: '/features/06_standalone' },
+                            { text: '機械翻訳との連携', link: '/features/07_machine' },
                             { text: 'リファレンス', link: '/features/99_reference' },
                         ]
                     },

@@ -20,7 +20,7 @@ CATOVIS(キャトビス)は「CATツールをより手軽に」を目指したCA
 ![img](./catovis-demo.gif)
 
 ::: tip
-2020/2/26現在、最新バージョンは0.4.7です。
+2020/5/19現在、最新バージョンは0.5.0です。
 [ダウンロード](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)
 :::
 
