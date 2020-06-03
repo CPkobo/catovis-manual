@@ -36,18 +36,22 @@ CATOVISのMT Settingsページで上記の３項目を記入し、Googleの前�
 
 セキュリティの関係で、機械翻訳のAPI KeyはCATOVISに保存されません。
 毎回Googleの機械翻訳を使用したい場合には、config.jsonファイルを使用することで設定を永続化できます。
-config.jsonのひな型は、[ダウンロード](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)にあります。
-このファイルをメモ帳などのテキストエディタで開き、
+
+config.jsonはインストールした直後は作成されていません。
+config.jsonを使うには、メニューバーの **Help**をクリックし、**Advanced Setting**を選択するか、[config.jsonひな型](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)をダウンロードして、<ユーザーフォルダ>\AppData\Roaming\catovis\にコピーしてください。
+その後、このファイルをメモ帳などのテキストエディタで開き、
 
 ```json
 {
+  "applyConfig": true,
+  "MTInfo": {
     "useGcp": true,
     "gcpKey": "YOUR_API_KEY",
+  }
 }
 ```
 
-に書き換えてください。
-その後、このconfig.jsonを、<ユーザーフォルダ>\AppData\Roaming\catovis\にコピーしておきます。
+に書き換えてください（YOUR_API_KEYは自分のGoogle Cloud Platformで作成したAPI Keyに書き換えます）。
 こうすることでCATOVISの起動時にGoogle翻訳のAPI Keyを自動的に読み込むようになります。
 
 ::: tip
@@ -55,3 +59,6 @@ config.jsonは他にも様々な項目を変更することができます。
 このファイルを書き換えたことでCATOVISが上手く起動しなくなったら、このファイルを削除してください。
 詳細については[config項目一覧（json）](./99_reference.html#config項目一覧（json）)を参照してください。
 :::
+
+なお、一度作成されたconfig.jsonは上記と同様に、メニューバーの **Help**をクリックし**Advanced Setting**を選択することで開くようになります。
+デフォルトのテキストエディタが使われるので、適宜修正してください。
