@@ -1,13 +1,17 @@
 module.exports = {
-//    base: '/docs/',
-//    dest: 'docs',
+    base: '/catovis-docs/',
+    dest: 'docs',
     head: [
         ['link', { rel: 'icon', type: 'image/png', href: '/catovis.ico' }],
     ],
-    plugins: [
+	plugins: [
+    	[
+			'@vuepress/google-analytics',
+    	  	{ 'ga': 'UA-155988647-2' }
+    	],
     	[
     		'sitemap',
-    		{ 'hostname': 'https://man.catovis.com'}
+    		{ 'hostname': 'https://quankaoyang.github.io/catovis-docs/'}
     	],
     ],
     locales: {
