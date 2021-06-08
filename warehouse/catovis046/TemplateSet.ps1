@@ -12,7 +12,7 @@ if ($v16) {
     $startup = $pathToV17
 } else {
     Write-host "Sorry, CATOVIS Word Core auto-installer cannot find the path to Word STARTUP."
-    Write-host "Please install manuary accoring to 'https://quankaoyang.github.io/catovis-docs'"
+    Write-host "Please install manuary accoring to 'https://man.catovis.com'"
 }
 
 Write-Host "Please select:"

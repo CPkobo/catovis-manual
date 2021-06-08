@@ -10,15 +10,10 @@ next: ./02_withword
 
 请从下述网址下载zip文件。
 
-[下载](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)
+[下载最新版本](https://catovis.com/download/catovis051.zip)
+[跳转至其他版本及工具下载页](https://catovis.com/downloads)
 
 请点击适当的文件。如无特殊理由，建议使用最新版本。
-
-<img src="./pict/github1.png" alt="img" style="zoom:67%;" />
-
-接着，点击 **「Download」** 按钮。
-
-<img src="./pict/github2.png" alt="img" style="zoom:67%;" />
 
 解压所下载的zip文件，出现下列4个文件：
 

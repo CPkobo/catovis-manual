@@ -20,8 +20,9 @@ CATOVIS是以“让CAT工具更为轻易近人”为概念开发的CAT工具。
 ![img](./catovis-demo.gif)
 
 ::: tip
-截止至2020/2/26，最新版本为0.4.7。
-[下载](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)
+截止至2020/9/16，最新版本为0.5.1。
+[下载最新版本](https://catovis.com/download/catovis051.zip)
+[跳转至其他版本及工具下载页](https://catovis.com/downloads)
 :::
 
 ### 仅一部分的翻译、翻译的修正作业变得更轻松

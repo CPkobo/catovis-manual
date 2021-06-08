@@ -2,7 +2,7 @@
 title:  ファイルのエクスポート
 lang: ja-JP
 sidebar: auto
-prev: ./03_open_import
+prev: ./05_open_import
 next: false
 ---
 

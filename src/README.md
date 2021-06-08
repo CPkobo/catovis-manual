@@ -1,6 +1,6 @@
 ---
 HOME: true
-title: CATOVIS  ~WYSIWYGでクラシックなCATツール~
+title: CATOVIS  ~軽量・軽快な翻訳支援ツール~
 lang: ja-JP
 sidebar: false
 ---
@@ -20,8 +20,11 @@ CATOVIS(キャトビス)は「CATツールをより手軽に」を目指したCA
 ![img](./catovis-demo.gif)
 
 ::: tip
-2020/5/19現在、最新バージョンは0.5.0です。
-[ダウンロード](https://github.com/QuanKaoYang/catovis-docs/tree/master/catovis)
+2021/6/8現在、最新バージョンは0.7.1です。
+
+[最新版ダウンロード](https://catovis.com/download/catovis071_beta.zip)
+
+[その他ダウンロードページ](https://catovis.com/downloads)
 :::
 
 ### 部分翻訳、修正翻訳がより簡単に
@@ -34,6 +37,13 @@ CATOVIS(キャトビス)は「CATツールをより手軽に」を目指したCA
 といったニーズも少なくありません。
 
 CATOVISはWYSIWYGな特徴により、部分翻訳でも存分に翻訳メモリ／用語集を活かすことができます。
+
+### 上書き翻訳の愛好者に
+翻訳作業は上書きに限る！
+
+そんな声も根強く存在します。
+
+安心してください。CATOVISはWordの上書き翻訳をパワーアップさせます。
 
 ### 翻訳以外にも……
 機械に頼らないで翻訳をしたけれど、終わってみたら重複が多かった……

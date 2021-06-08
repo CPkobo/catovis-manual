@@ -2,8 +2,8 @@
 title:  ファイルの読み込み
 lang: ja-JP
 sidebar: auto
-prev: ./02_withword
-next: ./04_export
+prev: ./04_withls
+next: ./06_export
 ---
 #  ファイルの読み込み
 ## プロジェクトを開く

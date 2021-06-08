@@ -5,6 +5,10 @@ module.exports = {
         ['link', { rel: 'icon', type: 'image/png', href: '/catovis.ico' }],
     ],
     plugins: [
+        [
+			'@vuepress/google-analytics',
+    	  	{ 'ga': 'UA-146588348-4' }
+    	],
     	[
     		'sitemap',
     		{ 'hostname': 'https://man.catovis.com'}
@@ -14,7 +18,7 @@ module.exports = {
         '/': {
             lang: 'ja-JP',
             title: 'CATOVIS マニュアル',
-            description: 'WYSIWYGな軽量翻訳支援ツール',
+            description: '軽量・軽快な翻訳支援ツール',
         },
         '/zh/': {
             lang: 'zh-CN',
@@ -28,7 +32,7 @@ module.exports = {
             '/': {
                 lang: 'ja-JP',
                 title: 'CATOVIS マニュアル',
-                description: 'WYSIWYGな軽量翻訳支援ツール',
+                description: '軽量・軽快な翻訳支援ツール',
                 selectText: '言語',
                 label: '日本語',
                 ariaLabel: 'ja-JP',
@@ -36,10 +40,13 @@ module.exports = {
                     { text: 'トップ', link: '/index' },
                     {
                         text: '始めよう', items: [
+                            { text: 'はじめに', link: '/getstarted/00_introduction' },
                             { text: 'インストール', link: '/getstarted/01_install' },
-                            { text: '基本の使い方 Word編', link: '/getstarted/02_withword' },
-                            { text: 'ファイルの読み込み', link: '/getstarted/03_open_import' },
-                            { text: 'ファイルのエクスポート', link: '/getstarted/04_export' },
+                            { text: '基本の使い方 Word編(1)', link: '/getstarted/02_vbacore' },
+                            { text: '基本の使い方 Word編(2)', link: '/getstarted/03_vbacore2' },
+                            { text: 'CATOVIS LSと連携', link: '/getstarted/04_withls' },
+                            { text: 'ファイルの読み込み', link: '/getstarted/05_open_import' },
+                            { text: 'ファイルのエクスポート', link: '/getstarted/06_export' },
                         ]
                     },
                     {

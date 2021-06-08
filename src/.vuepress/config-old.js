@@ -11,7 +11,7 @@ module.exports = {
     	],
     	[
     		'sitemap',
-    		{ 'hostname': 'https://quankaoyang.github.io/catovis-docs/'}
+    		{ 'hostname': 'https://man.catovis.com/'}
     	],
     ],
     locales: {
